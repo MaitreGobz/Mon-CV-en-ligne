@@ -39,3 +39,32 @@
     src: url(../fonts/Lato-Bold.ttf) format('truetype');
     font-weight: bold;
 }
+
+body {
+    font-family: Raleway;
+    font-style: normal;
+    max-width: 1160px;
+    margin: auto;
+    padding: 0%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato';
+    font-weight: bold;
+
+}
+
+
+/*Photo déjà paramétrer pour plus de lisibilité du CV*/
+
+#photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
