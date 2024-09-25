@@ -212,6 +212,30 @@ article {
     border-right: 2px solid black;
 }
 
+#path {
+    width: 90%;
+}
+
 #title {
     border-left: 7px solid #782221;
+}
+
+/*Dynamics effects*/
+#path:hover {
+    border-right: 7px solid #782221;
+}
+
+#photo img:hover {
+    cursor: zoom-in;
+}
+
+#social1 img:hover,
+#social2 img:hover {
+    opacity: 0.50;
+}
+
+#postal a:hover,
+#mail a:hover,
+#tel a:hover {
+    text-decoration: underline;
 }
