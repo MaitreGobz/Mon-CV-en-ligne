@@ -82,7 +82,7 @@ h1 {
 
 }
 
-.address {
+#address {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px;
@@ -93,25 +93,34 @@ h1 {
     font-size: larger;
 }
 
-#postal {
+.postal {
     color: white;
-    text-align: justify;
+    text-decoration: none;
+}
+
+#postal {
+    text-align: left;
     margin-left: 10%;
-    text-indent: -10%;
+}
+
+.mail {
+    color: white;
     text-decoration: none;
 }
 
 #mail {
-    color: white;
     text-align: center;
+}
+
+.tel {
+
+    color: white;
     text-decoration: none;
 }
 
 #tel {
-    color: white;
     text-align: right;
     margin-right: 5%;
-    text-decoration: none;
 }
 
 
@@ -130,16 +139,10 @@ footer {
     margin-bottom: 20px;
 }
 
-#social1 img {
+.social img {
     width: 50px;
     height: 50px;
     margin-right: 5px;
-}
-
-#social2 img {
-    width: 50px;
-    height: 50px;
-    margin-left: 5px;
 }
 
 #small {
@@ -162,14 +165,14 @@ article {
     height: auto;
 }
 
-.about {
+#about {
     display: flex;
     flex-direction: column;
     background-color: #782221;
     height: 100%;
 }
 
-#about {
+.about {
     font-weight: normal;
     color: white;
     text-indent: 10%;
@@ -179,12 +182,12 @@ article {
     font-size: larger;
 }
 
-#ul-about {
+.ul-about {
     color: white;
     font-size: larger;
 }
 
-.path {
+#path {
     margin-left: 5%;
     display: flex;
     flex-direction: column;
@@ -193,17 +196,17 @@ article {
     border-right: 2px solid black;
 }
 
-#path {
+.path {
     font-size: larger;
     width: 90%;
 }
 
-#title {
+.title {
     border-left: 7px solid #782221;
 }
 
 /*Dynamics effects*/
-#path:hover {
+.path:hover {
     border-right: 7px solid #782221;
 }
 
@@ -211,13 +214,13 @@ article {
     cursor: zoom-in;
 }
 
-#social1 img:hover,
-#social2 img:hover {
+
+.social img:hover {
     opacity: 0.50;
 }
 
-#postal a:hover,
-#mail a:hover,
-#tel a:hover {
+.postal:hover,
+.mail:hover,
+.tel:hover {
     text-decoration: underline;
 }
