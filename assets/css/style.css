@@ -1,49 +1,25 @@
+/*Font import*/
 @font-face {
     font-family: 'Raleway';
     src: url(../fonts/Raleway-Regular.woff) format('woff');
     src: url(../fonts/Raleway-Regular.ttf) format('truetype');
-    font-weight: 400;
 }
 
 @font-face {
     font-family: 'Raleway';
     src: url(../fonts/Raleway-Italic.woff) format('woff');
     src: url(../fonts/Raleway-Italic.ttf) format('truetype');
-    font-style: italic;
 }
 
 @font-face {
     font-family: 'Raleway';
     src: url(../fonts/Raleway-Bold.woff) format('woff');
     src: url(../fonts/Raleway-Bold.ttf) format('truetype');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url(../fonts/Lato-Regular.woff) format('woff');
-    src: url(../fonts/Lato-Regular.ttf) format('truetype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url(../fonts/Lato-Italic.woff) format('woff');
-    src: url(../fonts/Lato-Italic.ttf) format('truetype');
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Lato';
-    src: url(../fonts/Lato-Bold.woff) format('woff');
-    src: url(../fonts/Lato-Bold.ttf) format('truetype');
-    font-weight: bold;
 }
 
 /*Body style*/
 body {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
+    font-family: 'Lato', sans-serif;
     max-width: 1160px;
     margin: auto;
     padding: 0%;
@@ -54,7 +30,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
 }
 
@@ -100,8 +76,10 @@ h1 {
 #profession {
     text-align: center;
     font-weight: bold;
+    font-size: x-large;
     color: white;
     padding-bottom: 2%;
+
 }
 
 .address {
@@ -112,6 +90,7 @@ h1 {
     width: 1160px;
     align-items: center;
     border-right: 2px solid #2c1d27;
+    font-size: larger;
 }
 
 #postal {
@@ -197,10 +176,12 @@ article {
     margin-left: 5%;
     margin-right: 10%;
     text-align: justify;
+    font-size: larger;
 }
 
 #ul-about {
     color: white;
+    font-size: larger;
 }
 
 .path {
@@ -213,6 +194,7 @@ article {
 }
 
 #path {
+    font-size: larger;
     width: 90%;
 }
 
